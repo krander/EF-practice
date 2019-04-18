@@ -1,0 +1,13 @@
+@model CalculatorMVC.SalesEntities
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Partners with 123 Main St addresses:</h1><br />
+<h2>Partner Name: @Model.Partners</h2>
